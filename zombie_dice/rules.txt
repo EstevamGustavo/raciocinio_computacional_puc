@@ -1,0 +1,14 @@
+tubo com 13 dados de 6 faces
+
+valores possíveis: pegadas, espingardas e cérebro
+
+vermelhos = 4
+amarelos = 5
+verdes = 4
+totalizando 13 dados
+
+vermelhos = 4 espingardas + 1 pegadas + 1 cérebro = Difícil
+amarelos =  2 espingarda + 2 pegadas + 2 cérebros = Médios
+verdes =  1 espingarda + 1 pegada + 4 cérebros = Fácil
+
+
