@@ -21,7 +21,7 @@ class Game:
             players.pop(rand)
 
         self.players = randPlayers
-        print("Ordem do Jogadores será: ")
+        print("Ordem dos Jogadores será: ")
         for x in randPlayers:
             print(x.name)
 

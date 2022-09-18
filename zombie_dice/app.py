@@ -3,6 +3,8 @@ from player import Player
 from dices import Tube
 import sys
 
+from util import cleanTerminal
+
 playerNumber = int(input("How many players? 2 ~ * "))
 
 if playerNumber < 2:
@@ -15,5 +17,6 @@ for x in range(0, playerNumber):
     namePlayer = input(f"Nome do Jogador {x + 1}? ")
     players.append(Player(namePlayer))
 
+cleanTerminal()
 game = Game()
 game.addPlayers(players)
